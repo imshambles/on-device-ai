@@ -31,6 +31,26 @@ This project will be developed in the following phases:
     -   Add support for custom hotkeys and categories.
     -   Integrate with calendar and to-do applications.
 
+## 🚀 How to Run Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/VoceNote.git
+    cd VoceNote
+    ```
+
+2.  **Install the dependencies:**
+    Make sure you have Python 3 installed. You can install the required libraries using pip:
+    ```bash
+    pip install SpeechRecognition pynput sounddevice scipy
+    ```
+
+3.  **Run the application:**
+    ```bash
+    python voce_note.py
+    ```
+    The application will then be running in the background. Press and hold the `Fn` key to record your voice. Your notes will be saved in `todos.txt`, `reminders.txt`, or `notes.txt`.
+
 ## 🤝 Contributing
 
 This is an open-source project, and contributions are welcome. Please refer to `CONTRIBUTING.md` for guidelines on how to get involved.
